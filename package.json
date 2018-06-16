@@ -1,0 +1,22 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Chat",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "chat",
+    "blog"
+  ],
+  "author": "Nikolay",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.5",
+    "nodemon": "^1.17.5"
+  }
+}
